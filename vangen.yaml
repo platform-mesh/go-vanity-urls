@@ -1,0 +1,31 @@
+index: true
+domain: go.platform-mesh.io
+repositories:
+  - prefix: platform-mesh
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+
+  - prefix: account-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/account-operator
+
+  - prefix: security-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/security-operator
+
+  - prefix: apis
+    main: false
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: apis
+
+  - prefix: golang-commons
+    main: false
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: golang-commons
+
+  - prefix: subroutines
+    main: false
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: subroutines
