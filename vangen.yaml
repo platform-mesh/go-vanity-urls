@@ -10,10 +10,55 @@ repositories:
     url: https://github.com/platform-mesh/platform-mesh
     subdirectory: operators/account-operator
 
+  - prefix: backup-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/backup-operator
+
+  - prefix: extension-manager-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/extension-manager-operator
+
+  - prefix: kcp-migration-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/kcp-migration-operator
+
+  - prefix: resource-sharding-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/resource-sharding-operator
+
+  - prefix: search-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/search-operator
+
   - prefix: security-operator
     main: true
     url: https://github.com/platform-mesh/platform-mesh
     subdirectory: operators/security-operator
+
+  - prefix: terminal-controller-manager
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/terminal-controller-manager
+
+  - prefix: jl
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: cmd/jl
+
+  - prefix: qrbtool
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: cmd/qrbtool
+
+  - prefix: release
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: cmd/release
 
   - prefix: apis
     main: false
@@ -29,3 +74,28 @@ repositories:
     main: false
     url: https://github.com/platform-mesh/platform-mesh
     subdirectory: subroutines
+
+  - prefix: iam-service
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/iam-service
+
+  - prefix: kubernetes-graphql-gateway
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/kubernetes-graphql-gateway
+
+  - prefix: rebac-authz-webhook
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/rebac-authz-webhook
+
+  - prefix: search-service
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/search-service
+
+  - prefix: virtual-workspaces
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/virtual-workspaces
