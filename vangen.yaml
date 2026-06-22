@@ -50,10 +50,10 @@ repositories:
     url: https://github.com/platform-mesh/platform-mesh
     subdirectory: cmd/jl
 
-  - prefix: qrbtool
+  - prefix: qbrtool
     main: true
     url: https://github.com/platform-mesh/platform-mesh
-    subdirectory: cmd/qrbtool
+    subdirectory: cmd/qbrtool
 
   - prefix: release
     main: true
