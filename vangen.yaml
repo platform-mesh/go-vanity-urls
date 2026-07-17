@@ -25,6 +25,11 @@ repositories:
     url: https://github.com/platform-mesh/platform-mesh
     subdirectory: operators/kcp-migration-operator
 
+  - prefix: platform-mesh-operator
+    main: true
+    url: https://github.com/platform-mesh/platform-mesh
+    subdirectory: operators/platform-mesh-operator
+
   - prefix: resource-sharding-operator
     main: true
     url: https://github.com/platform-mesh/platform-mesh
